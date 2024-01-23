@@ -258,7 +258,8 @@ input {
 
 .section-team {
   background: #f4f4fd;
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 96px 0;
 }
 .section-team-title {
   color: #2e2f42;
@@ -272,6 +273,7 @@ input {
 }
 .section-team-navigation {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .section-team-navigation-item {
@@ -764,4 +766,12 @@ input {
   .section-advantages-navigation-item {
     width: calc((100% - 72px) / 4);
   } 
+  .section-advantages-subtitle {
+    font-size: 20px; */
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .section-advantages-text {
+    font-weight: 400;
+  }
 }
