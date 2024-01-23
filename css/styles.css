@@ -908,7 +908,8 @@ input {
     max-width: 1440px;
   }
   .container.addfooterflex {
-    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: center;
     padding-left: 15px;
   }
   .footer-logo {
@@ -924,6 +925,9 @@ input {
     margin-left: 80px;
   }
   .footer-form {
+    display: inline-flex;
+    justify-content: start;
+    flex-wrap: nowrap;
     gap: 24px;
   }
   .footer-form-text {
