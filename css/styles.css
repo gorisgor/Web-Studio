@@ -425,7 +425,7 @@ input {
 /* ------------------------------------------------ */
 /* ------------------Footer------------------------ */
 
-.basement {
+.footer {
   background: #2e2f42;
   /* padding: 100px 0; */
   padding: 96px 0;
@@ -450,7 +450,7 @@ input {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.basement-logoz {
+.footer-logoz {
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -459,7 +459,7 @@ input {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.basement-discr {
+.footer-discr {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -903,7 +903,7 @@ input {
     width: calc((100% - 48px) / 3);
   }
   /* ------------------Footer------------- */
-  .basement {
+  .footer {
     padding: 100px 0;
     max-width: 1440px;
   }
@@ -914,7 +914,7 @@ input {
   .footer-logo {
     display: inline-block;
   }
-  .basement-discr {
+  .footer-discr {
     max-width: 264px;
   }
   .logo-text {
