@@ -155,7 +155,8 @@ input {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    /* url(../images/people-office.jpg); */
+    url(../images/people-office@3x.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -527,7 +528,8 @@ input {
   letter-spacing: 0.02em;
 }
 .footer-input {
-  width: 264px;
+  /* width: 264px; */
+  width: 288px;
   height: 40px;
   color: #ffffff;
   font-size: 12px;
@@ -591,13 +593,16 @@ input {
   pointer-events: auto;
 }
 .modal {
-  width: 408px;
-  min-height: 584px;
+  /* width: 408px;
+  min-height: 584px; */
+  width: 288px;
+  height: 623px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
+  padding: 72px 16px 24px 16px;
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -779,6 +784,11 @@ input {
   .section-hero {
     max-width: 768px;
     padding: 112px 0;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office@2x.jpg);
   }
   .hero-title {
     font-size: 56px;
@@ -833,19 +843,32 @@ input {
     text-align: left;}
   .footer-logo {
     justify-content: left;}
-
-
+  .footer-input {
+    width: 264px;
+    }
+  /* ---------------backdrop----------- */
+  .modal {
+    width: 408px;
+    height: 584px;
+    padding: 72px 25px 24px 25px;
+  }
 }
 
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    
   }
   /* ------------------Hero------------ */
   .section-hero {
     max-width: 1440px;
     padding: 188px 0;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office@1x.jpg);
   }
   
   .hero-title {
@@ -932,5 +955,11 @@ input {
   }
   .footer-form-text {
     text-align: left;
+  }
+  /* ---------------backdrop----------- */
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
