@@ -1048,3 +1048,11 @@ input {
     padding: 72px 24px 24px 24px;
   }
 }
+@media (min-resolution: 192dpi){
+  .section-hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/people-office@1x.jpg);
+  }
+}
