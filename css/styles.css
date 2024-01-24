@@ -74,8 +74,6 @@ input {
   margin-left: 149px;
   cursor: pointer;
 }
-.menu-icon {
-}
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -864,9 +862,7 @@ input {
     text-align: left;}
 
   /* -------------Team----------------- */
-  .section-team {
 
-  }
   .section-team> .container {
     max-width: 552px;
   }
@@ -924,9 +920,6 @@ input {
   /* ------------------Header------------ */
   .header-logo {
     margin-right: 76px;
-  }
-  .navigation-list {
-  
   }
   .navigation-link {
     padding-top: 24px;
