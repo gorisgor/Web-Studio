@@ -305,6 +305,7 @@ input {
   /* line-height: 1.07; */
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   /* max-width: 496px; */
   max-width: 288px;
   /* margin-bottom: 48px; */
@@ -553,7 +554,6 @@ input {
 .section-folio-text {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
