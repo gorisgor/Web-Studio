@@ -858,6 +858,8 @@ input {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
 }
 
 .check-label a {
@@ -866,7 +868,6 @@ input {
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
-  padding-left: 24px;
 }
 .checkbox {
   display: inline-flex;
@@ -911,7 +912,7 @@ input {
   background-color: #404bbf;
 }
 
-/* -----------Media----------768----------------------- */
+/** -----------Media----------768-----------------------**/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -1045,7 +1046,7 @@ input {
   /* ---------------backdrop----------- */
   .modal {
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     padding: 72px 25px 24px 25px;
   }
   .check-label a {
@@ -1053,7 +1054,7 @@ input {
   }
 }
 
-/*---------------------------1158--------------  */
+/**---------------------------1158--------------  */
 
 @media screen and (min-width: 1158px) {
   .container {
