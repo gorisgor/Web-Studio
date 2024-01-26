@@ -362,6 +362,7 @@ input {
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px;
+  justify-content: center;
 }
 .section-advantages-navigation-item {
   width: 100%;
