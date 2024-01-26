@@ -73,6 +73,8 @@ input {
   background-color: transparent;
   margin-left: 149px;
   cursor: pointer;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .navigation {
   display: flex;
@@ -307,7 +309,7 @@ input {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   /* max-width: 496px; */
-  max-width: 288px;
+  max-width: 170px;
   /* margin-bottom: 48px; */
   margin-bottom: 72px;
 }
@@ -864,6 +866,7 @@ input {
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
+  padding-left: 24px;
 }
 .checkbox {
   display: inline-flex;
@@ -980,7 +983,7 @@ input {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
-    margin-bottom: 96px;
+    margin-bottom: 36px;
   }
   /* -----------Advantages------------ */
 
@@ -1044,6 +1047,9 @@ input {
     width: 408px;
     height: 584px;
     padding: 72px 25px 24px 25px;
+  }
+  .check-label a {
+    padding-left: 0;
   }
 }
 
