@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const menuOpenBtn = document.querySelector('.menu');
     const menuCloseBtn = document.querySelector('.modal-close-btn');
+    const orderService = document.querySelector('.button')
     const mobMenu = document.querySelector('.backdrop');
 
     function openMenu() {
@@ -11,10 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
       mobMenu.classList.remove('is-open');
       console.log('here');
     }
-  
-    menuOpenBtn.addEventListener('click', openMenu);
-  
-
-    menuCloseBtn.addEventListener('click', closeMenu);
+      menuOpenBtn.addEventListener('click', openMenu);
+      menuCloseBtn.addEventListener('click', closeMenu);
+      orderService.addEventListener('click', openMenu);
   });
   
